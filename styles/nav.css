@@ -1,0 +1,148 @@
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  /* width: 1440px; */
+  height: 80px;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.header-container {
+  background: #ffffff;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  letter-spacing: 0.03em;
+
+  color: #000c2d;
+}
+
+.menu-link {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  list-style: none;
+  color: #000c2d;
+}
+
+li {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  list-style: none;
+
+  letter-spacing: 0.03em;
+
+  /* color: #000c2d; */
+}
+
+a {
+  text-decoration: none;
+  color: #000c2d;
+}
+
+.nav__btn {
+  background: none;
+  width: 136px;
+  height: 44px;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #2f70fe;
+  border: 2px solid #2f70fe;
+}
+
+.nav.hidden {
+  display: flex;
+
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+
+.navigation {
+  display: flex;
+  text-align: center;
+  gap: 32px;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #000c2d;
+  padding-left: 430px;
+}
+
+.header-cta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu-list {
+  margin-left: 50px;
+}
+
+#burger {
+  display: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rotate {
+  transform: rotate(-90deg);
+}
+
+.nav__login {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  letter-spacing: 0.03em;
+
+  color: #000c2d;
+}
+
+/* toggler */
+.toggler {
+  display: none;
+}
+
+.toggler i {
+  font-size: 28.5px;
+  padding: 4px 12px;
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+/* nav */
+/* .nav {
+  width: 100%;
+/* } */
+@media (max-width: 768px) {
+  .toggler {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav a {
+    display: none;
+  }
+}
